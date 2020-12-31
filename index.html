@@ -1,110 +1,68 @@
-<<!DOCTYPE html>
-  <html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html>
 
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Aryan's Personal Website</title>
-  </head>
+    <title>Aryan's Personal Site</title>
+    <link rel="stylesheet" href="CSS/stile.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
 
-  <body>
-    <header>
-      <table cellspacing="20">
-        <tr>
-          <td> <img src="circle-cropped.png" alt="Aryan Profile Pic"></td>
-          <td>
-            <h1>Aryan Shaw</h1>
-            <p>Btech 1st year student at <a href="https://www.bppimt.ac.in/">B.P Poddar</a> and<strong> an Aspiring webdeveloper</strong></p>
-            <p>I am just beginning with my journey of developing web applications
-              it is not going to be easy I know but nothing could stop me and this 30 days of WebDevelopement is helping me a learn a lot in a short period of time and also making me consistent in my developer journey</p>
-          </td>
-        </tr>
-      </table>
+<body>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud">
+        <div class="title-text">
+            <h1>I'm Aryan.</h1>
+            <h2>A Programmer and an Aspiring WebDeveloper.</h2>
+        </div>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+        <img class="mountain" src="images/mountain.png" alt="mountain-img">
+    </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dfnOpzMkSno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="middle-container">
+        <div class="profile">
+            <img src="images/circle-cropped.png" alt="Aryan-profile-img">
+            <h2>Hello.</h2>
+            <p class="intro">I am an 1st year Btech Student and an Aspiring Web Developer.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="code-img" src="https://media.giphy.com/media/3p50WGyUqeU5W/giphy.gif" alt="code-img">
 
-    </header>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li>
-        Completed 10th from <em>Gyan Bharti Vidyalaya </em><strong>(83.2%)
-        </strong>
-      </li>
-      <li> Completed 12th from <strong>Shree Jain Vidyalaya</strong> <strong>Kolkata</strong> <strong>(82.7%)</strong></li>
-      <li>Currently pursuing B.Tech in Electronics and Communication engineering
-        from <strong>B.P Poddar Institute of Management and Technology</strong></li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Work Experience</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2021 Dec-2022 March</td>
-          <td>Intern at Microsoft</td>
-        </tr>
-        <tr>
-          <td>2022</td>
-          <td>Internship full stack developement at goldmann sachs</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>C</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
+                <h3>Design & Development</h3>
+                <p>I started learning to code when I passed my class 12 and was remaining free most of the time
+                    , I have gained a experience of designing and developing mobile and web applications through the 30 days of Webdev.</p>
 
-        <td>C++</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Java</td>
-        <td>⭐⭐</td>
-      </tr>
-      <tr>
-        <td>HTML5</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>⭐⭐</td>
-      </tr>
-    </table>
-    <br><hr>
-    <h2>Contact Form</h2>
-    <form action="mailto:aryan4p130202@gmail.com" method="post" enctype="text/plain">
+            </div>
+            <div class="skill-row">
+                <img class="chilli-img" src="images/chillies.png" alt="chillies-img">
 
-  First name:<br>
-  <input type="text" name="firstname" required>
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" required>
-  <br>
-  Email:<br>
-  <input type="email" name="email" required>
-  <br>
-  Contact Number:<br>
-  <input type="number" name="number" required>
-  <br>
-  Gender:<br>
-  <input type="radio" name="gender"> Male <input type="radio" name="gender"> Female <input type="radio" name="gender"> Other
-  <br>
-  <input type="submit" value="Submit">
-</form><hr>
-<footer>
-  <p>Author: Aryan Shaw</p>
-  <p><a href="mailto:aryan4p130202@gmail.com">aryan4p130202@example.com</a></p>
-</footer>
+                <h3>Hot Chicken Wings Challenge</h3>
+                <p>But my best skill is actually in eating hot Chicken wings.
+                    Ghost Peppers and Carolina Reapers are my favourite snacks.</p>
 
-  </body>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you want to know more about programming stuff.</h3>
+            <p class="contact-message">Love programming as much as I do? Let's talk about how, We can
+                excell in coding</p>
+            <a class="btn" href="mailto:aryan4p130202@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
 
-  </html>
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/aryans1319/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/AryanSh87214772">Twitter</a>
+       <a class="footer-link" href="https://www.instagram.com/aryans_1319/">Instagram </a>
+        <p class="copyright">© 2020 Aryan Shaw @ B.P Poddar Institute of Management and Technology</p>
+    </div>
+</body>
+
+</html>
